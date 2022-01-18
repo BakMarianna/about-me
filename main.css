@@ -6,12 +6,12 @@
   }
   
   .profile-card{
-    background-color: hsla(70, 100%, 50%, .2);
+    background-color: rgba(187, 44, 34, 0.2);
     width: 450px;
     max-width: calc(100vw - 10px);
-    background-color: hsla(0, 0%, 100%, .7);
+    background-color: rgba(252, 252, 252, 0.7);
     border-radius: 10px;
-    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 80px;
     font-family: 'Ubuntu Mono', monospace;
   }
   
@@ -26,10 +26,10 @@
     width: 90%;
     margin: 0 auto;
     padding: 5% 10%;
-    border-top: 1px solid hsla(0, 0%, 30%, .8);
+    border-top: 2px solid rgba(153, 13, 13, 0.8);
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 600;
-    color: hsla(0, 60%, 0%, .6);
+    color: rgba(0, 0, 0, 0.733);
   }
   
   .profile-image{
@@ -78,11 +78,11 @@
   
   #profession{
     font-weight: 600;
-    color: hsla(0, 0%, 0%, .6);
+    color: rgba(90, 9, 9, 0.815);
   }
   
   span{
-    color: hsla(0, 0%, 0%, .5);
+    color: rgba(0, 0, 0, 0.5);
   }
   
   .social-icon{
@@ -108,7 +108,9 @@
   
   p{
     font-family: 'Ubuntu Mono', monospace;
-    color: hsla(0, 60%, 0%, .7);
-    
+    color: rgba(0, 0, 0, 0.7);    
   }
   
+  .where{
+      font-weight: 700;
+  }
